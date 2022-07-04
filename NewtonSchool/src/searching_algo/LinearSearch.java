@@ -17,6 +17,7 @@ public class LinearSearch {
 			//int input = sc.nextInt();
 			//list.add(input); //adding  a  value to the list.
 		}
+		scn.close();
 		
 		int index=-1;
 		for(int i=0; i<n; i++) {
@@ -37,3 +38,15 @@ public class LinearSearch {
 //Best case =O(1)
 //Average Case = O(n)
 //Worst case = O(n)
+
+//Input:
+//5
+//3
+//4
+//5
+//3
+//6
+//2
+
+//Output:
+//Value is found at index: 2
