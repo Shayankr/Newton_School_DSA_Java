@@ -1,5 +1,8 @@
 package array;
 
+//The Time Complexity of the below solution is O(n3). 
+//Auxiliary Space: O(1)
+
 public class PythagoreanTriplet {
 
 	public static void main(String[] args) {
@@ -34,4 +37,4 @@ public class PythagoreanTriplet {
 }
 
 //Output:
-//Pythagoras Triplet is found.
+//Pythagorean Triplet is found.
