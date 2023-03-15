@@ -1,0 +1,14 @@
+Implementation of Basic Algorithms:
+______________________________________________________
+
+binarySearch() :
+
+sort():
+
+max():
+
+min():
+
+reverse():
+
+fill():

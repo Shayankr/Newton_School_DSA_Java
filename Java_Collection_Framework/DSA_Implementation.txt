@@ -1,0 +1,55 @@
+{
+    List: {
+        'ArrayList':"Dynamic Size Array",
+
+        'LinkedList':"Implementation of DoublyLinkedList",
+
+        'Vector':"Anotehr Dynamic Size Array",
+
+        'Stack':"Implementation of LIFO, FILO structure"
+
+        'comment': "Vector and Stack--tehse 2 are legacy class. Stack class inherits from Vector class. And the difference b/w
+        Vector dunamic sized array and ArrayList dynamic size array is 
+        1st: Vector is a legacy class.
+        2nd: Its a thread safe class. Since stack inherits from Vector--Stcak is also thread safe class.
+        And as a general practice it is not recommended to use these 2 classes--Vector nad Stack, especially in a single threaded environment.
+        Because , this is going to caus eextra overhead.
+        We can always use ArrayList in place of Vector in single threaded environmenta and in place of Stack --> ArrayDeque.
+    },
+
+    Set: {
+        HashSet: Implementation of hashing --store collection of keys, --HashSet does not guarantee any order during access when insert them.
+        
+        TreeSet : Implements self-balancing binary Search tree line Red, Black tree,
+        
+        LinkedHashSet: stores HasTable items or has-items in an insertion order. -- LinkedHashSet unternally uses HashSet and a LinkedList to insure 
+        that when we traverse these items we get the items in same order as we inserted them.
+    },
+
+    Queue: {
+        LinkedList : LinkedList implements Queue interface as well. --means -- LinkedList can be used as a Queue  -- we can have Queue operation on LinkedList. -- Queue --FIFO.
+        
+        ArerayDeque: can be used as Queue -- Its an Array Implementation.
+
+        PriorityQuque: implements of Heap Data structure. -- "maxHeap/minHeap data structure implemented by PriorityQueue class." -- useful when we want Queue with priorities among the items.
+    },
+
+    DeQueue:{
+        LinkedHashSet : LinkedList can be used as a DeQueue also. --Doubly Ended Queue-- we can  insert and delete items at both ends.
+
+        ArrayDeque : Array Implementation
+    },
+
+    Map :{
+        HashMap : 
+
+        TreeMap : 
+
+        LinkedHashMap :
+    }
+}
+
+NOTE:  "set" is a collection of "keys".
+        "Map" is a collection of "key-value" pair(s).
+
+NOTE: See advantages and Disadvantages over Hash(Map) and Tree(Map).
